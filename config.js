@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'public') {
     return text === fault ? true : public;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "SHABAN-MD~KBMBBTDC#QAvLfSeYeggvvJzdPgaT2bo0A7n6mubHUhQTE19Dxso",
+SESSION_ID: process.env.SESSION_ID || "SHABAN-MD~6BUxnCra#eUM74IF5VvT24ldGAZswaYU9MzN-7qaqV-JP4i_CKRA",
 // add your Session Id
 AUTO_BIO: process.env.AUTO_BIO || "public", 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "public",
