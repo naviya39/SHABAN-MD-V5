@@ -1,13 +1,13 @@
 const fs = require('fs');
 if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
 
-function convertToBool(text, fault = 'true') {
+function convertToBool(text, fault = 'public') {
     return text === fault ? true : public;
 }
 module.exports = {
 SESSION_ID: process.env.SESSION_ID || "SHABAN-MD~KBMBBTDC#QAvLfSeYeggvvJzdPgaT2bo0A7n6mubHUhQTE19Dxso",
 // add your Session Id
-AUTO_BIO: process.env.AUTO_BIO || "false", 
+AUTO_BIO: process.env.AUTO_BIO || "public", 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "public",
 // make true or false status auto seen
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "public",
@@ -32,7 +32,7 @@ CUSTOM_REACT: process.env.CUSTOM_REACT || "public",
 // make this true for custum emoji react    
 CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,〽️,❤️,🧡,💛,💚,💙,💜,🤎,🪀,🤍",
 // chose custom react emojis by yourself 
-DELETE_LINKS: process.env.DELETE_LINKS || "false",
+DELETE_LINKS: process.env.DELETE_LINKS || "public",
 // automatic delete links witho remove member 
 OWNER_NUMBER: process.env.OWNER_NUMBER || "94707888758",
 // add your bot owner number
@@ -56,13 +56,13 @@ ANTI_LINK: process.env.ANTI_LINK || "public",
 // make anti link true,false for groups 
 AUTO_VOICE: process.env.AUTO_VOICE || "public",
 // make true for send automatic voices
-AUTO_STICKER: process.env.AUTO_STICKER || "false",
+AUTO_STICKER: process.env.AUTO_STICKER || "public",
 // make true for automatic stickers 
-AUTO_REPLY: process.env.AUTO_REPLY || "false",
+AUTO_REPLY: process.env.AUTO_REPLY || "public",
 // make true or false automatic text reply 
-ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
+ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "public",
 // maks true for always online 
-PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
+PUBLIC_MODE: process.env.PUBLIC_MODE || "public",
 // make false if want private mod
 AUTO_TYPING: process.env.AUTO_TYPING || "public",
 // true for automatic show typing   
@@ -74,7 +74,7 @@ ANTI_VV: process.env.ANTI_VV || "public",
 // true for anti once view
 ANTI_CALL: process.env.ANTI_CALL || "public",
 REJECT_MSG: process.env.REJECT_MSG || "*_SOORY MY BOSS IS BUSY PLEASE DONT CALL ME_*",
-ANTI_DELETE: process.env.ANTI_DELETE || "true",
+ANTI_DELETE: process.env.ANTI_DELETE || "public",
 // set true false for anti delete
 ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "public", 
 // change it to 'same' if you want to resend deleted message in same chat
