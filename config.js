@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'public') {
     return text === fault ? true : public;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "SHABAN-MD~6BUxnCra#eUM74IF5VvT24ldGAZswaYU9MzN-7qaqV-JP4i_CKRA",
+SESSION_ID: process.env.SESSION_ID || "SHABAN-MD~CY81GTBD#imFa0o1PRLcDuiGy5lDaNAZT-5HmADzSHaeVHuEU0MA",
 // add your Session Id
 AUTO_BIO: process.env.AUTO_BIO || "public", 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "public",
@@ -34,7 +34,7 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,〽️,�
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "public",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "94707888758",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "94716055192",
 // add your bot owner number
 OWNER_NAME: process.env.OWNER_NAME || "MR-SHABAN",
 // add bot owner name
@@ -68,7 +68,7 @@ AUTO_TYPING: process.env.AUTO_TYPING || "public",
 // true for automatic show typing   
 READ_CMD: process.env.READ_CMD || "public",
 // true if want mark commands as read 
-DEV: process.env.DEV || "94707888758",
+DEV: process.env.DEV || "94716055192",
 //replace with your whatsapp number        
 ANTI_VV: process.env.ANTI_VV || "public",
 // true for anti once view
